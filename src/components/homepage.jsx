@@ -10,7 +10,7 @@ const Hero = () => {
     <div className='max-h-screen'>
       {/* Hero Section */}
       <div className="hero">
-        <div className="hero-content flex-col lg:flex-row-reverse items-center justify-center pt-15 pb-20">
+        <div className="hero-content flex-col lg:flex-row-reverse items-center justify-center pt-30 pb-30">
           <img
             alt="Tailwind CSS hero component"
             src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
@@ -33,7 +33,7 @@ const Hero = () => {
 
       {/* Events Title Section */}
       <div className="hero">
-        <div className="hero-content flex-col items-center justify-center pt-10 pb-10">
+        <div className="hero-content flex-col items-center justify-center pt-30 pb-10">
           <h1 className='text-5xl/18 font-bold text-center'>What kind of event are you hosting?</h1>
           <p className='pr-2 pl-2 text-m text-center'>Pick your event type and see exactly how AirCam works for you.</p>
         </div>
@@ -100,7 +100,7 @@ const Hero = () => {
 
       {/* Info Section */}
       <div className="hero">
-        <div className="hero-content flex-col lg:flex-row items-center justify-center pt-30 pb-20 pr-10 pl-10 mt-10">
+        <div className="hero-content flex-col lg:flex-row items-center justify-center pt-30 pb-30 pr-2 pl-2 mt-10">
           <div className="text-center lg:text-left flex flex-col items-center lg:items-start p-5">
             <h1 className="text-6xl/18 font-bold p-2">
               Capture Photos and Videos.<br/> One Platform. All included.
@@ -110,7 +110,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="card bg-base-100 w-384 shadow-xl rounded-xl">
+          <div className="card bg-base-200 w-384 shadow-xl rounded-xl">
             <div className="card-body items-left text-left m-5">
               <h2 className="card-title font-bold text-xl">Every guest becomes your photographer.</h2>
               <p className='mt-2 text-m'>Guests scan a QR code or tap a link and instantly upload their photos and videos to your private album. Original quality, unlimited uploads, organized exactly how you want.</p>
@@ -127,7 +127,7 @@ const Hero = () => {
 
       {/* Features Title Section */}
       <div className="hero mt-10">
-        <div className="hero-content flex-col items-center justify-center pt-10 pb-4">
+        <div className="hero-content flex-col items-center justify-center pt-30 pb-4">
           <h1 className='text-4xl md:text-5xl font-bold text-center'>Built for the way real events actually work.</h1>
           <p className='pr-2 pl-2 mt-4 text-m text-center text-gray-500 max-w-3xl'>
             The right event photo sharing platform feels effortless for guests and organized for hosts. AirCam is built to be both.
@@ -136,11 +136,11 @@ const Hero = () => {
       </div>
 
       {/* Features Grid */}
-      <div className="max-w-7xl mx-auto px-4 pb-20">
+      <div className="max-w-7xl mx-auto px-4 pb-30">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           
           {/* Feature Card 1 */}
-          <div className="card bg-base-100 shadow-sm border border-base-200">
+          <div className="card bg-base-200 shadow-sm border border-base-200">
             <div className="card-body flex-row gap-4 items-start p-8">
               <div className="text-blue-400 mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" /></svg>
@@ -155,7 +155,7 @@ const Hero = () => {
           </div>
 
           {/* Feature Card 2 */}
-          <div className="card bg-base-100 shadow-sm border border-base-200">
+          <div className="card bg-base-200 shadow-sm border border-base-200">
             <div className="card-body flex-row gap-4 items-start p-8">
               <div className="text-green-500 mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" /></svg>
@@ -170,7 +170,7 @@ const Hero = () => {
           </div>
 
           {/* Feature Card 3 */}
-          <div className="card bg-base-100 shadow-sm border border-base-200">
+          <div className="card bg-base-200 shadow-sm border border-base-200">
             <div className="card-body flex-row gap-4 items-start p-8">
               <div className="text-yellow-500 mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M6 6.878V6a2.25 2.25 0 012.25-2.25h7.5A2.25 2.25 0 0118 6v.878m-12 0c.235-.083.487-.128.75-.128h10.5c.263 0 .515.045.75.128m-12 0A2.25 2.25 0 004.5 9v.878m13.5-3A2.25 2.25 0 0119.5 9v.878m0 0a2.246 2.246 0 00-.75-.128H5.25c-.263 0-.515.045-.75.128m15 0A2.25 2.25 0 0121 12v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6c0-.98.626-1.813 1.5-2.122" /></svg>
@@ -185,7 +185,7 @@ const Hero = () => {
           </div>
 
           {/* Feature Card 4: Custom Branding */}
-          <div className="card bg-base-100 shadow-sm border border-base-200">
+          <div className="card bg-base-200 shadow-sm border border-base-200">
             <div className="card-body flex-row gap-4 items-start p-8">
               <div className="text-pink-500 mt-1">
                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.813-6.843m-11.628 11.628l-.108-.053m11.736-11.575a1.5 1.5 0 11-2.121-2.121 1.5 1.5 0 012.121 2.121z" /></svg>
@@ -201,7 +201,7 @@ const Hero = () => {
           </div>
 
           {/* Feature Card 5 */}
-          <div className="card bg-base-100 shadow-sm border border-base-200">
+          <div className="card bg-base-200 shadow-sm border border-base-200">
             <div className="card-body flex-row gap-4 items-start p-8">
               <div className="text-purple-500 mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125z" /></svg>
@@ -217,7 +217,7 @@ const Hero = () => {
           </div>
 
           {/* Feature Card 7 (Moved from position 6, Digital Guestbook removed) */}
-          <div className="card bg-base-100 shadow-sm border border-base-200">
+          <div className="card bg-base-200 shadow-sm border border-base-200">
             <div className="card-body flex-row gap-4 items-start p-8">
               <div className="text-orange-400 mt-1">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M9 8.25H7.5a2.25 2.25 0 00-2.25 2.25v9a2.25 2.25 0 002.25 2.25h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25H15M9 12l3 3m0 0l3-3m-3 3V2.25" /></svg>
@@ -235,7 +235,7 @@ const Hero = () => {
 
       {/* Comparison Table Section */}
       <div className="hero mt-10">
-        <div className="hero-content flex-col items-center justify-center pt-10 pb-4">
+        <div className="hero-content flex-col items-center justify-center pt-30 pb-4">
           <h1 className='text-4xl md:text-5xl font-bold text-center max-w-4xl'>
             More thoughtful than a shared album. Easier than piecing tools together.
           </h1>
@@ -292,9 +292,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='pb-50'></div>
+      <div className='pb-60'></div>
       {/* FAQ Section */}
-      <div className="card bg-base-100 shadow-md max-w-6xl mx-auto px-8 py-16 mb-20 flex flex-col md:flex-row gap-12 rounded-2xl">
+      <div className="card bg-base-200 shadow-md max-w-6xl mx-auto px-8 py-16 mb-20 flex flex-col md:flex-row gap-12 rounded-2xl">
         
         {/* Left Side: Title */}
         <div className="md:w-1/3">
@@ -312,7 +312,7 @@ const Hero = () => {
             Because it relies on the :focus state, clicking it again (or clicking away) removes focus and closes it.
             group class lets us style child elements based on the parent's state.
           */}
-          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-100">
+          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-200">
             <div className="collapse-title text-xl font-medium px-0 flex justify-between items-center cursor-pointer">
               Do guests need to download an app?
               
@@ -338,7 +338,7 @@ const Hero = () => {
           </div>
 
           {/* FAQ Item 2 */}
-          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-100">
+          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-200">
             <div className="collapse-title text-xl font-medium px-0 flex justify-between items-center cursor-pointer">
               Can I buy AirCam months before my event?
               <svg 
@@ -357,7 +357,7 @@ const Hero = () => {
           </div>
 
           {/* FAQ Item 3 */}
-          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-100">
+          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-200">
             <div className="collapse-title text-xl font-medium px-0 flex justify-between items-center cursor-pointer">
               My event already happened. Can I still use AirCam?
                <svg 
@@ -376,7 +376,7 @@ const Hero = () => {
           </div>
          
         {/* FAQ Item 5 (New) */}
-          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-100">
+          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-200">
             <div className="collapse-title text-xl font-medium px-0 flex justify-between items-center cursor-pointer">
               Are the photos and videos compressed?
               <svg 
@@ -395,7 +395,7 @@ const Hero = () => {
           </div>
          
          {/* FAQ Item 6 (New) */}
-          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-100">
+          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-200">
             <div className="collapse-title text-xl font-medium px-0 flex justify-between items-center cursor-pointer">
               Can I download everything all at once?
               <svg 
@@ -414,7 +414,7 @@ const Hero = () => {
           </div>
          
          {/* FAQ Item 7 (New) */}
-          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-100">
+          <div tabIndex={0} className="collapse border-b border-base-300 rounded-none group bg-base-200">
             <div className="collapse-title text-xl font-medium px-0 flex justify-between items-center cursor-pointer">
               Is there a limit to how many guests can upload?
               <svg 
@@ -435,7 +435,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='pb-5'></div>
+      <div className='pb-30'></div>
       
     </div>
   );
