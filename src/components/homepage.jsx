@@ -10,7 +10,7 @@ const Hero = () => {
     <div className='max-h-screen'>
       {/* Hero Section */}
       <div className="hero">
-        <div className="hero-content flex-col lg:flex-row-reverse items-center justify-center pt-30 pb-30">
+        <div className="hero-content flex-col lg:flex-row-reverse items-center justify-center pt-25 pb-25">
           <img
             alt="Tailwind CSS hero component"
             src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
@@ -33,14 +33,14 @@ const Hero = () => {
 
       {/* Events Title Section */}
       <div className="hero">
-        <div className="hero-content flex-col items-center justify-center pt-30 pb-10">
+        <div className="hero-content flex-col items-center justify-center pt-25 pb-10">
           <h1 className='text-5xl/18 font-bold text-center'>What kind of event are you hosting?</h1>
           <p className='pr-2 pl-2 text-m text-center'>Pick your event type and see exactly how AirCam works for you.</p>
         </div>
       </div>
           
       {/* Event Cards */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-4 gap-4 px-4 pb-30 pl-5 pr-5 place-items-center max-w-7xl mx-auto">
+      <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-4 gap-4 px-4 pb-25 pl-5 pr-5 place-items-center max-w-7xl mx-auto">
         {/* Card 1: Weddings */}
         <div className="hover-3d w-full max-w-[512px] aspect-[3/4] cursor-pointer">
           <figure className="w-full h-full rounded-2xl relative shadow-xl overflow-hidden">
@@ -100,7 +100,7 @@ const Hero = () => {
 
       {/* Info Section */}
       <div className="hero">
-        <div className="hero-content flex-col lg:flex-row items-center justify-center pt-30 pb-30 pr-2 pl-2 mt-10">
+        <div className="hero-content flex-col lg:flex-row items-center justify-center pt-25 pb-25 pr-2 pl-2 mt-10">
           <div className="text-center lg:text-left flex flex-col items-center lg:items-start p-5">
             <h1 className="text-6xl/18 font-bold p-2">
               Capture Photos and Videos.<br/> One Platform. All included.
@@ -127,7 +127,7 @@ const Hero = () => {
 
       {/* Features Title Section */}
       <div className="hero mt-10">
-        <div className="hero-content flex-col items-center justify-center pt-30 pb-4">
+        <div className="hero-content flex-col items-center justify-center pt-25 pb-4">
           <h1 className='text-4xl md:text-5xl font-bold text-center'>Built for the way real events actually work.</h1>
           <p className='pr-2 pl-2 mt-4 text-m text-center text-gray-500 max-w-3xl'>
             The right event photo sharing platform feels effortless for guests and organized for hosts. AirCam is built to be both.
@@ -136,7 +136,7 @@ const Hero = () => {
       </div>
 
       {/* Features Grid */}
-      <div className="max-w-7xl mx-auto px-4 pb-30">
+      <div className="max-w-7xl mx-auto px-4 pb-25">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           
           {/* Feature Card 1 */}
@@ -235,7 +235,7 @@ const Hero = () => {
 
       {/* Comparison Table Section */}
       <div className="hero mt-10">
-        <div className="hero-content flex-col items-center justify-center pt-30 pb-4">
+        <div className="hero-content flex-col items-center justify-center pt-25 pb-4">
           <h1 className='text-4xl md:text-5xl font-bold text-center max-w-4xl'>
             More thoughtful than a shared album. Easier than piecing tools together.
           </h1>
@@ -292,7 +292,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='pb-60'></div>
+      <div className='pb-25'></div>
       {/* FAQ Section */}
       <div className="card bg-base-200 shadow-md max-w-6xl mx-auto px-8 py-16 mb-20 flex flex-col md:flex-row gap-12 rounded-2xl">
         
@@ -435,8 +435,111 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='pb-30'></div>
-      
+      <div className='pb-10'></div>
+
+      <div className="hero bg-base-100 min-h-screen">
+        <div className="hero-content flex-col lg:flex-row-reverse items-center justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-24">
+          <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mb-10 lg:mb-0">
+            <img
+              alt="Event Collage with QR Code"
+              src={group} // Use the imported image here
+              className="rounded-2xl shadow-2xl w-full max-w-lg object-cover"
+            />
+          </div>
+          <div className="w-full lg:w-1/2 text-center lg:text-left flex flex-col items-center lg:items-start">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+              Your guests are going to capture moments you would otherwise miss
+            </h1>
+            <p className="text-lg text-gray-600 mb-8 max-w-2xl">
+              Give them one simple place to share them, and keep every photo and video together.
+            </p>
+            
+            {/* Feature List */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 w-full max-w-md lg:max-w-none">
+              <div className="flex items-center text-sm font-medium text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-primary mr-3 text-lg w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                </svg>
+                Unlimited Guests
+              </div>
+              <div className="flex items-center text-sm font-medium text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-success mr-3 text-lg w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                </svg>
+                Unlimited Photo & Video Uploads
+              </div>
+              <div className="flex items-center text-sm font-medium text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-error mr-3 text-lg w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                </svg>
+                Up to 12 Months for Uploads
+              </div>
+              <div className="flex items-center text-sm font-medium text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-success mr-3 text-lg w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                </svg>
+                Up to 14 Months of Storage
+              </div>
+            </div>
+
+            <button className="btn btn-primary btn-lg rounded-full px-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              Create My Event Gallery
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Footer Section */}
+      <footer className="footer sm:footer-horizontal footer-center bg-base-200 text-base-content rounded p-10 mt-auto">
+        <nav className="grid grid-flow-col gap-4">
+          <a className="link link-hover">About us</a>
+          <a className="link link-hover">Pricing</a>
+          <a className="link link-hover">Contact</a>
+        </nav>
+        <nav>
+          <div className="grid grid-flow-col gap-4">
+            <a>
+              <svg
+                aria-label="Twitter"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                className="fill-current hover:text-primary transition-colors cursor-pointer">
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                aria-label="YouTube"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                className="fill-current hover:text-primary transition-colors cursor-pointer">
+                <path
+                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                aria-label="Facebook"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                className="fill-current hover:text-primary transition-colors cursor-pointer">
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+              </svg>
+            </a>
+          </div>
+        </nav>
+        <aside>
+          <p>Copyright © {new Date().getFullYear()} - All rights reserved by AirCam</p>
+        </aside>
+      </footer>
     </div>
   );
 };
